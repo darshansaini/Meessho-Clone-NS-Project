@@ -1,0 +1,81 @@
+.footer-wrapper{
+    /* display: inline; */
+    background-color:rgb(248, 248, 255);
+    display:flex;
+}
+
+.footer-part{
+    /* background-color:rgb(248, 248, 255); */
+    /* text-align: center; */
+    /* display: inline; */
+    width:100%;
+    margin: 0px 50px 30px 50px;
+    
+}
+
+.footer-content1{
+    
+    font-family: "Mier book";
+    color: rgb(53, 53, 67);
+    font-weight: 500;
+    font-size: 32px;
+}
+.chebx{
+    color: rgb(97, 97, 115);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Mier book";
+}
+.reachout{
+    color: rgb(97, 97, 115);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    font-family: "Mier book";
+}
+
+@media screen and (max-width: 426px) {
+
+    .footer-wrapper{
+        /* display: inline; */
+        background-color:rgb(248, 248, 255);
+        display:block;
+        width:100%;
+    }
+    
+    .footer-part{
+        /* background-color:rgb(248, 248, 255); */
+        /* text-align: center; */
+        /* display: inline; */
+        width:100%;
+        margin: 0px 5px 3px 5px;
+        
+    }
+    
+    .footer-content1{
+        
+        font-family: "Mier book";
+        color: rgb(53, 53, 67);
+        font-weight: 500;
+        font-size: 32px;
+    }
+    .chebx{
+        color: rgb(97, 97, 115);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "Mier book";
+    }
+    .reachout{
+        color: rgb(97, 97, 115);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 24px;
+        font-family: "Mier book";
+        margin-bottom: 30px;
+    }
+
+}
