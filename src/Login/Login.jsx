@@ -25,6 +25,7 @@ const Container = styled.div`
     justify-content: center;
 `;
 
+
 const Wrapper = styled.div`
     width: 25%;
     padding: 20px;
@@ -51,7 +52,7 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
-    width: 40%;
+    width: 100%;
     border: none;
     padding: 15px 20px;
     background-color: rgb(239, 96, 120);
@@ -127,9 +128,6 @@ const Login = () => {
         <Container>
             <Wrapper>
                 <center><Title>LOG IN</Title></center>
-                <button onClick={handleLoginWithGoogle}>
-                    loging with google
-                </button>
                 <Form>
                     <Input
                         className="input"
@@ -149,7 +147,11 @@ const Login = () => {
                         value={value.pass}
                         onChange={handleInputChange}
                     /> 
+                    
                     <Button onClick={handleSubmit}>LOGIN</Button>
+
+                    <Button id="google" onClick={handleLoginWithGoogle}>LOGIN WITH GOOGLE</Button>
+                    
                     <h5 style={{
                         color:"gray",
                         display:"inline",

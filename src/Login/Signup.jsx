@@ -165,6 +165,11 @@ const Signup = () => {
 
           {/* {err ? <div style={{color: 'red' , font_size: '15px'}}>{errtxt}</div> : null} */}
           <Button>Signup</Button>
+
+          <h5 style={{
+                        color:"gray",
+                        display:"inline",
+                    }}>If you have already Registerd click <a href="/Login">here</a></h5>
         </Form>
       </Wrapper>
     </Container>

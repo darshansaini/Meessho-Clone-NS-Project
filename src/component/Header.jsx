@@ -135,7 +135,7 @@ const Header = () => {
                                 <img src={user} onClick={openLoginbtn} />
                             </div>
                             <p onClick={openLoginbtn}>{
-                                                currentUser ? currentUser.displayName ? currentUser.displayName : currentUser.email : "login"
+                                                currentUser ? currentUser.displayName ? currentUser.displayName : currentUser.email : "Login"
                                             }</p>
 
                             {profile && (
