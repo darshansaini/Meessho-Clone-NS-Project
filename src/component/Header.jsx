@@ -141,13 +141,15 @@ const Header = () => {
                             {profile && (
                                 <div style={{ display: "block" }}>
                                     <div className="profileHoverBtnContainer">
-                                        <h3>
+                                        <h3 className="profileUserName">
                                             Hello{" "}
                                             {
                                                 currentUser ? currentUser.displayName ? currentUser.displayName : currentUser.email : "User"
                                             }
                                         </h3>
-                                        <h5>
+                                        <h5 style={{
+                                            paddingBottom: "5px"
+                                        }}>
                                             {" "}
                                             {localData !== null
                                                 ? "Welcome to Meesho"
