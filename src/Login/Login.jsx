@@ -150,13 +150,14 @@ const Login = () => {
                     
                     <Button onClick={handleSubmit}>LOGIN</Button>
 
-                    <Button id="google" onClick={handleLoginWithGoogle}>LOGIN WITH GOOGLE</Button>
+                    
+                </Form>
+                <Button id="google" onClick={handleLoginWithGoogle}>LOGIN WITH GOOGLE</Button>
                     
                     <h5 style={{
                         color:"gray",
                         display:"inline",
                     }}>If you havn't sign up yet click on <a href="/Signup">Register</a></h5>
-                </Form>
             </Wrapper>
         </Container>
     );
