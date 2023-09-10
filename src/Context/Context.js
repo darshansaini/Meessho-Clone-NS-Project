@@ -1,4 +1,4 @@
-import { createContext, useReducer } from "react";
+import { createContext, useReducer, useState } from "react";
 
 export const CartCoontext = createContext();
 export const Context = (props) => {
@@ -43,7 +43,8 @@ export const Context = (props) => {
     }
   };
   const [state, dispatch] = useReducer(reducer, []);
-  const info = { state, dispatch };
+  const [user, setUser] = useState(null)
+  const info = { state, dispatch ,user, setUser};
   return (
     <CartCoontext.Provider value={info}>{props.children}</CartCoontext.Provider>
   );

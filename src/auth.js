@@ -45,7 +45,6 @@ export async function loginWithGoogle() {
         return null;
     }
 }
-
 export async function logoutUser() {
     try {
         await signOut(auth);
